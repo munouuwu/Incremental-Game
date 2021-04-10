@@ -1,0 +1,178 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.508; Version 2009; 64bit' Language: 'en' Physical Memory: 16349 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/Incremental
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65249
+Successfully changed project path to: D:/Unity/Projects/Incremental
+D:/Unity/Projects/Incremental
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/Incremental/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Vendor:   
+    VRAM:     6103 MB
+    Driver:   27.20.15003.1004
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001411 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.446 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2234.
+Total: 3.945500 ms (FindLiveObjects: 0.449700 ms CreateObjectMapping: 0.305100 ms MarkObjects: 2.979400 ms  DeleteObjects: 0.200500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/bar_yellow.png
+  artifactKey: Guid(849f625c18e5090448770f3c1b396168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_yellow.png using Guid(849f625c18e5090448770f3c1b396168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f02fa42b6527fadbb0eb6669b3576d5') in 0.248416 seconds
+  Import took 0.253915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sprites/bar_green.png
+  artifactKey: Guid(073e49233c2fc4142bd72024d074cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_green.png using Guid(073e49233c2fc4142bd72024d074cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a05a7504ce7e1fd9b49e9fb46f546a1') in 0.027687 seconds
+  Import took 0.033159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/panel_white.png
+  artifactKey: Guid(5cb15a0b896bb4247b048e1dedcb5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/panel_white.png using Guid(5cb15a0b896bb4247b048e1dedcb5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1668ea5bf35d3f3f6f6177a73d23d9ea') in 0.029035 seconds
+  Import took 0.034481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(b7bc8c6b11311224aba9ec77665c89b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(b7bc8c6b11311224aba9ec77665c89b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb547023d8531718d0aa290e2d05760c') in 0.025838 seconds
+  Import took 0.031826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Sprites/coin.png
+  artifactKey: Guid(b2cced8abbfbe3048bd4acb5da440b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/coin.png using Guid(b2cced8abbfbe3048bd4acb5da440b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc5501462eaf747394b71953a5b4335') in 0.024712 seconds
+  Import took 0.030754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/bar_white.png
+  artifactKey: Guid(d47590c6c3bb6664cb0a634952ccab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_white.png using Guid(d47590c6c3bb6664cb0a634952ccab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223a6c8c3a3e34b65a0aca0926b2a433') in 0.023679 seconds
+  Import took 0.027476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.856029 seconds.
+  path: Assets/Sprites/panel_white.png
+  artifactKey: Guid(5cb15a0b896bb4247b048e1dedcb5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/panel_white.png using Guid(5cb15a0b896bb4247b048e1dedcb5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3946ad367012c30259bd83eebdfb6b06') in 0.011900 seconds
+  Import took 0.016550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007259 seconds.
+  path: Assets/Sprites/panel_white.png
+  artifactKey: Guid(5cb15a0b896bb4247b048e1dedcb5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/panel_white.png using Guid(5cb15a0b896bb4247b048e1dedcb5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3946ad367012c30259bd83eebdfb6b06') in 0.009994 seconds
+  Import took 0.015010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 510.235139 seconds.
+  path: Assets/Sprites/bar_white.png
+  artifactKey: Guid(d47590c6c3bb6664cb0a634952ccab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_white.png using Guid(d47590c6c3bb6664cb0a634952ccab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d3e4e8cf4ed86115cd36cf77716625') in 0.012905 seconds
+  Import took 0.019548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007704 seconds.
+  path: Assets/Sprites/bar_white.png
+  artifactKey: Guid(d47590c6c3bb6664cb0a634952ccab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_white.png using Guid(d47590c6c3bb6664cb0a634952ccab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d3e4e8cf4ed86115cd36cf77716625') in 0.009973 seconds
+  Import took 0.014735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.267820 seconds.
+  path: Assets/Sprites/bar_green.png
+  artifactKey: Guid(073e49233c2fc4142bd72024d074cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_green.png using Guid(073e49233c2fc4142bd72024d074cf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a366aa22e6b823621488d21b00050c') in 0.040262 seconds
+  Import took 0.046496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.697292 seconds.
+  path: Assets/Sprites/bar_yellow.png
+  artifactKey: Guid(849f625c18e5090448770f3c1b396168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_yellow.png using Guid(849f625c18e5090448770f3c1b396168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9638b0b4268baff9121b07debf27e1c8') in 0.010280 seconds
+  Import took 0.015211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008538 seconds.
+  path: Assets/Sprites/bar_yellow.png
+  artifactKey: Guid(849f625c18e5090448770f3c1b396168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bar_yellow.png using Guid(849f625c18e5090448770f3c1b396168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9638b0b4268baff9121b07debf27e1c8') in 0.010139 seconds
+  Import took 0.015095 seconds .
+
